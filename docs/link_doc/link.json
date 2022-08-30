@@ -1,0 +1,11 @@
+{
+  "constants": {
+    "Prefix": "https://github.com/wanabe/link_doc/tree/main/docs/link_doc"
+  },
+  "rules": {
+    "mermaid": {
+      "anchor": "{{.Prefix}}/{{.Path}}#{{.Name}}",
+      "file": "{{.Prefix}}/{{.Path}}"
+    }
+  }
+}
